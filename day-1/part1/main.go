@@ -7,11 +7,6 @@ import (
 	"strings"
 )
 
-var data = `-1
--7
--5
--16`
-
 func main() {
 	data, _ := ioutil.ReadFile("../input.txt")
 	numbers := strings.Split(string(data), "\n")
